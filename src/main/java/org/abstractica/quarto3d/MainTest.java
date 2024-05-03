@@ -35,13 +35,7 @@ public class MainTest
 
 		QuartoBrick brick = new QuartoBrick(csg, tools, config);
 
-		//Geometry3D test = tools.rectTorus(50, 30, 5, 64);
-
-		//Geometry3D test = board.getBoard();
-
 		Geometry3D test = brick.getBrick(false, false, true);
-
-		//Geometry2D test = brick.squareBase();
 
 		csg.view(test);
 	}
