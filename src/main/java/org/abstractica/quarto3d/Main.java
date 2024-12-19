@@ -1,11 +1,9 @@
 package org.abstractica.quarto3d;
 
-import org.abstractica.javacsg.Geometry2D;
-import org.abstractica.javacsg.Geometry3D;
 import org.abstractica.javacsg.JavaCSG;
 import org.abstractica.javacsg.JavaCSGFactory;
 
-public class MainTest
+public class Main
 {
 	public static void main(String[] args)
 	{
