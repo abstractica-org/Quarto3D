@@ -10,7 +10,7 @@ public class MainTest
 	public static void main(String[] args)
 	{
 		JavaCSG csg = JavaCSGFactory.createNoCaching();
-		Tools3D tools = new Tools3D(csg);
+		ShowGame showGame = new ShowGame(csg);
 		QuartoConfig config = new QuartoConfig
 			(
 				250,
@@ -31,12 +31,6 @@ public class MainTest
 				25,
 				128
 			);
-		QuartoBoard board = new QuartoBoard(csg, tools, config);
-
-		QuartoBrick brick = new QuartoBrick(csg, tools, config);
-
-		Geometry3D test = brick.getBrick(false, false, true);
-
-		csg.view(test);
+		csg.view(showGame.getGeometry(config));
 	}
 }
