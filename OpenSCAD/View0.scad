@@ -1,191 +1,194 @@
 union()
 {
-    difference()
+    color(c = [0.8, 0.6, 0.5, 1.0])
     {
         difference()
         {
-            union()
+            difference()
             {
-                M238();
                 union()
                 {
-                    translate([0.0, 125.0, 0.0])
+                    M238();
+                    union()
                     {
-                        hull()
+                        translate([0.0, 125.0, 0.0])
                         {
-                            translate([-125.0, 0.0, 0.0])
+                            hull()
                             {
-                                M239();
+                                translate([-125.0, 0.0, 0.0])
+                                {
+                                    M239();
+                                }
+                                translate([125.0, 0.0, 0.0])
+                                {
+                                    M239();
+                                }
                             }
-                            translate([125.0, 0.0, 0.0])
+                        }
+                        translate([125.0, 0.0, 0.0])
+                        {
+                            hull()
                             {
-                                M239();
+                                translate([0.0, -125.0, 0.0])
+                                {
+                                    M239();
+                                }
+                                translate([0.0, 125.0, 0.0])
+                                {
+                                    M239();
+                                }
+                            }
+                        }
+                        translate([0.0, -125.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-125.0, 0.0, 0.0])
+                                {
+                                    M239();
+                                }
+                                translate([125.0, 0.0, 0.0])
+                                {
+                                    M239();
+                                }
+                            }
+                        }
+                        translate([-125.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -125.0, 0.0])
+                                {
+                                    M239();
+                                }
+                                translate([0.0, 125.0, 0.0])
+                                {
+                                    M239();
+                                }
                             }
                         }
                     }
-                    translate([125.0, 0.0, 0.0])
-                    {
-                        hull()
-                        {
-                            translate([0.0, -125.0, 0.0])
-                            {
-                                M239();
-                            }
-                            translate([0.0, 125.0, 0.0])
-                            {
-                                M239();
-                            }
-                        }
-                    }
-                    translate([0.0, -125.0, 0.0])
-                    {
-                        hull()
-                        {
-                            translate([-125.0, 0.0, 0.0])
-                            {
-                                M239();
-                            }
-                            translate([125.0, 0.0, 0.0])
-                            {
-                                M239();
-                            }
-                        }
-                    }
-                    translate([-125.0, 0.0, 0.0])
-                    {
-                        hull()
-                        {
-                            translate([0.0, -125.0, 0.0])
-                            {
-                                M239();
-                            }
-                            translate([0.0, 125.0, 0.0])
-                            {
-                                M239();
-                            }
-                        }
-                    }
+                }
+                translate([0.0, 0.0, 5.0])
+                {
+                    M241();
                 }
             }
-            translate([0.0, 0.0, 5.0])
+            rotate([0.0, 0.0, 45.0])
             {
-                M241();
-            }
-        }
-        rotate([0.0, 0.0, 45.0])
-        {
-            union()
-            {
-                translate([-60.0, -60.0, 0.0])
+                union()
                 {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-60.0, -60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-20.0, -60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-20.0, -60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([20.0, -60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([20.0, -60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([60.0, -60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([60.0, -60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-60.0, -20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-60.0, -20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-20.0, -20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-20.0, -20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([20.0, -20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([20.0, -20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([60.0, -20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([60.0, -20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-60.0, 20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-60.0, 20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-20.0, 20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-20.0, 20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([20.0, 20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([20.0, 20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([60.0, 20.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([60.0, 20.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-60.0, 60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-60.0, 60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([-20.0, 60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([-20.0, 60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([20.0, 60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([20.0, 60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
-                }
-                translate([60.0, 60.0, 0.0])
-                {
-                    translate([0.0, 0.0, -3.0])
+                    translate([60.0, 60.0, 0.0])
                     {
-                        M246();
+                        translate([0.0, 0.0, -3.0])
+                        {
+                            M246();
+                        }
                     }
                 }
             }
@@ -193,162 +196,333 @@ union()
     }
     translate([-109.375, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 60.0])
+            difference()
             {
-                translate([0.0, 0.0, -2.5])
+                translate([0.0, 0.0, 60.0])
+                {
+                    translate([0.0, 0.0, -2.5])
+                    {
+                        union()
+                        {
+                            translate([0.0, 0.0, -57.5])
+                            {
+                                linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                {
+                                    hull()
+                                    {
+                                        translate([12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                    }
+                                }
+                            }
+                            union()
+                            {
+                                union()
+                                {
+                                    translate([0.0, 12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([0.0, -12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([-12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                }
+                                M218();
+                            }
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
                 {
                     union()
                     {
-                        translate([0.0, 0.0, -57.5])
+                        translate([0.0, 15.0, 0.0])
                         {
-                            linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                            hull()
                             {
-                                hull()
+                                translate([-15.0, 0.0, 0.0])
                                 {
-                                    translate([12.5, 12.5])
-                                    {
-                                        M200();
-                                    }
-                                    translate([-12.5, 12.5])
-                                    {
-                                        M200();
-                                    }
-                                    translate([12.5, -12.5])
-                                    {
-                                        M200();
-                                    }
-                                    translate([-12.5, -12.5])
-                                    {
-                                        M200();
-                                    }
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
                                 }
                             }
                         }
-                        union()
+                        translate([15.0, 0.0, 0.0])
                         {
-                            union()
+                            hull()
                             {
-                                translate([0.0, 12.5, 0.0])
+                                translate([0.0, -15.0, 0.0])
                                 {
-                                    hull()
-                                    {
-                                        translate([-12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
+                                    M210();
                                 }
-                                translate([12.5, 0.0, 0.0])
+                                translate([0.0, 15.0, 0.0])
                                 {
-                                    hull()
-                                    {
-                                        translate([0.0, -12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([0.0, 12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
-                                }
-                                translate([0.0, -12.5, 0.0])
-                                {
-                                    hull()
-                                    {
-                                        translate([-12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
-                                }
-                                translate([-12.5, 0.0, 0.0])
-                                {
-                                    hull()
-                                    {
-                                        translate([0.0, -12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([0.0, 12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
+                                    M210();
                                 }
                             }
-                            M218();
+                        }
+                        translate([0.0, -15.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
                         }
                     }
                 }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([-109.375, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                union()
+                translate([0.0, 0.0, 60.0])
                 {
-                    translate([0.0, 15.0, 0.0])
+                    translate([0.0, 0.0, -2.5])
                     {
-                        hull()
+                        union()
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            translate([0.0, 0.0, -57.5])
                             {
-                                M210();
+                                linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                {
+                                    hull()
+                                    {
+                                        translate([12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                    }
+                                }
                             }
-                            translate([15.0, 0.0, 0.0])
+                            union()
                             {
-                                M210();
+                                union()
+                                {
+                                    translate([0.0, 12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([0.0, -12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([-12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                }
+                                M218();
                             }
                         }
                     }
-                    translate([15.0, 0.0, 0.0])
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    union()
                     {
-                        hull()
+                        translate([0.0, 15.0, 0.0])
                         {
-                            translate([0.0, -15.0, 0.0])
+                            hull()
                             {
-                                M210();
-                            }
-                            translate([0.0, 15.0, 0.0])
-                            {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
-                    }
-                    translate([0.0, -15.0, 0.0])
-                    {
-                        hull()
+                        translate([15.0, 0.0, 0.0])
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            hull()
                             {
-                                M210();
-                            }
-                            translate([15.0, 0.0, 0.0])
-                            {
-                                M210();
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
-                    }
-                    translate([-15.0, 0.0, 0.0])
-                    {
-                        hull()
+                        translate([0.0, -15.0, 0.0])
                         {
-                            translate([0.0, -15.0, 0.0])
+                            hull()
                             {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
-                            translate([0.0, 15.0, 0.0])
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
                             {
-                                M210();
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
                     }
@@ -358,193 +532,401 @@ union()
     }
     translate([-78.125, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 60.0])
+            difference()
             {
-                translate([0.0, 0.0, -2.5])
+                translate([0.0, 0.0, 60.0])
                 {
-                    union()
+                    translate([0.0, 0.0, -2.5])
                     {
-                        translate([0.0, 0.0, -57.5])
-                        {
-                            linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
-                            {
-                                M219();
-                            }
-                        }
                         union()
                         {
-                            M223();
-                            M227();
+                            translate([0.0, 0.0, -57.5])
+                            {
+                                linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                {
+                                    M219();
+                                }
+                            }
+                            union()
+                            {
+                                M223();
+                                M227();
+                            }
                         }
                     }
                 }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([-78.125, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                M229();
+                translate([0.0, 0.0, 60.0])
+                {
+                    translate([0.0, 0.0, -2.5])
+                    {
+                        union()
+                        {
+                            translate([0.0, 0.0, -57.5])
+                            {
+                                linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                {
+                                    M219();
+                                }
+                            }
+                            union()
+                            {
+                                M223();
+                                M227();
+                            }
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
             }
         }
     }
     translate([-46.875, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 80.0])
+            difference()
             {
-                translate([0.0, 0.0, -2.5])
+                translate([0.0, 0.0, 80.0])
+                {
+                    translate([0.0, 0.0, -2.5])
+                    {
+                        union()
+                        {
+                            translate([0.0, 0.0, -77.5])
+                            {
+                                linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                {
+                                    hull()
+                                    {
+                                        translate([12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                    }
+                                }
+                            }
+                            union()
+                            {
+                                union()
+                                {
+                                    translate([0.0, 12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([0.0, -12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([-12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                }
+                                M218();
+                            }
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
                 {
                     union()
                     {
-                        translate([0.0, 0.0, -77.5])
+                        translate([0.0, 15.0, 0.0])
                         {
-                            linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                            hull()
                             {
-                                hull()
+                                translate([-15.0, 0.0, 0.0])
                                 {
-                                    translate([12.5, 12.5])
-                                    {
-                                        M200();
-                                    }
-                                    translate([-12.5, 12.5])
-                                    {
-                                        M200();
-                                    }
-                                    translate([12.5, -12.5])
-                                    {
-                                        M200();
-                                    }
-                                    translate([-12.5, -12.5])
-                                    {
-                                        M200();
-                                    }
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
                                 }
                             }
                         }
-                        union()
+                        translate([15.0, 0.0, 0.0])
                         {
-                            union()
+                            hull()
                             {
-                                translate([0.0, 12.5, 0.0])
+                                translate([0.0, -15.0, 0.0])
                                 {
-                                    hull()
-                                    {
-                                        translate([-12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
+                                    M210();
                                 }
-                                translate([12.5, 0.0, 0.0])
+                                translate([0.0, 15.0, 0.0])
                                 {
-                                    hull()
-                                    {
-                                        translate([0.0, -12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([0.0, 12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
-                                }
-                                translate([0.0, -12.5, 0.0])
-                                {
-                                    hull()
-                                    {
-                                        translate([-12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([12.5, 0.0, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
-                                }
-                                translate([-12.5, 0.0, 0.0])
-                                {
-                                    hull()
-                                    {
-                                        translate([0.0, -12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                        translate([0.0, 12.5, 0.0])
-                                        {
-                                            M210();
-                                        }
-                                    }
+                                    M210();
                                 }
                             }
-                            M218();
+                        }
+                        translate([0.0, -15.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
                         }
                     }
                 }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([-46.875, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                union()
+                translate([0.0, 0.0, 80.0])
                 {
-                    translate([0.0, 15.0, 0.0])
+                    translate([0.0, 0.0, -2.5])
                     {
-                        hull()
+                        union()
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            translate([0.0, 0.0, -77.5])
                             {
-                                M210();
+                                linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                {
+                                    hull()
+                                    {
+                                        translate([12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, 12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                        translate([-12.5, -12.5])
+                                        {
+                                            M200();
+                                        }
+                                    }
+                                }
                             }
-                            translate([15.0, 0.0, 0.0])
+                            union()
                             {
-                                M210();
+                                union()
+                                {
+                                    translate([0.0, 12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([0.0, -12.5, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([-12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([12.5, 0.0, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                    translate([-12.5, 0.0, 0.0])
+                                    {
+                                        hull()
+                                        {
+                                            translate([0.0, -12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                            translate([0.0, 12.5, 0.0])
+                                            {
+                                                M210();
+                                            }
+                                        }
+                                    }
+                                }
+                                M218();
                             }
                         }
                     }
-                    translate([15.0, 0.0, 0.0])
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    union()
                     {
-                        hull()
+                        translate([0.0, 15.0, 0.0])
                         {
-                            translate([0.0, -15.0, 0.0])
+                            hull()
                             {
-                                M210();
-                            }
-                            translate([0.0, 15.0, 0.0])
-                            {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
-                    }
-                    translate([0.0, -15.0, 0.0])
-                    {
-                        hull()
+                        translate([15.0, 0.0, 0.0])
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            hull()
                             {
-                                M210();
-                            }
-                            translate([15.0, 0.0, 0.0])
-                            {
-                                M210();
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
-                    }
-                    translate([-15.0, 0.0, 0.0])
-                    {
-                        hull()
+                        translate([0.0, -15.0, 0.0])
                         {
-                            translate([0.0, -15.0, 0.0])
+                            hull()
                             {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
-                            translate([0.0, 15.0, 0.0])
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
                             {
-                                M210();
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
                     }
@@ -554,200 +936,415 @@ union()
     }
     translate([-15.625, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 80.0])
+            difference()
             {
-                translate([0.0, 0.0, -2.5])
-                {
-                    union()
-                    {
-                        translate([0.0, 0.0, -77.5])
-                        {
-                            linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
-                            {
-                                M219();
-                            }
-                        }
-                        union()
-                        {
-                            M223();
-                            M227();
-                        }
-                    }
-                }
-            }
-            translate([0.0, 0.0, 40.0])
-            {
-                M229();
-            }
-        }
-    }
-    translate([15.625, 150.0, 0.0])
-    {
-        difference()
-        {
-            translate([0.0, 0.0, 60.0])
-            {
-                difference()
+                translate([0.0, 0.0, 80.0])
                 {
                     translate([0.0, 0.0, -2.5])
                     {
                         union()
                         {
-                            translate([0.0, 0.0, -57.5])
+                            translate([0.0, 0.0, -77.5])
                             {
-                                linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
                                 {
-                                    hull()
-                                    {
-                                        translate([12.5, 12.5])
-                                        {
-                                            M200();
-                                        }
-                                        translate([-12.5, 12.5])
-                                        {
-                                            M200();
-                                        }
-                                        translate([12.5, -12.5])
-                                        {
-                                            M200();
-                                        }
-                                        translate([-12.5, -12.5])
-                                        {
-                                            M200();
-                                        }
-                                    }
+                                    M219();
                                 }
                             }
                             union()
                             {
-                                union()
+                                M223();
+                                M227();
+                            }
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
+            }
+        }
+    }
+    translate([-15.625, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
+            {
+                translate([0.0, 0.0, 80.0])
+                {
+                    translate([0.0, 0.0, -2.5])
+                    {
+                        union()
+                        {
+                            translate([0.0, 0.0, -77.5])
+                            {
+                                linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
                                 {
-                                    translate([0.0, 12.5, 0.0])
+                                    M219();
+                                }
+                            }
+                            union()
+                            {
+                                M223();
+                                M227();
+                            }
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
+            }
+        }
+    }
+    translate([15.625, 150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.5, 1.0])
+        {
+            difference()
+            {
+                translate([0.0, 0.0, 60.0])
+                {
+                    difference()
+                    {
+                        translate([0.0, 0.0, -2.5])
+                        {
+                            union()
+                            {
+                                translate([0.0, 0.0, -57.5])
+                                {
+                                    linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
                                     {
                                         hull()
                                         {
-                                            translate([-12.5, 0.0, 0.0])
+                                            translate([12.5, 12.5])
                                             {
-                                                M210();
+                                                M200();
                                             }
-                                            translate([12.5, 0.0, 0.0])
+                                            translate([-12.5, 12.5])
                                             {
-                                                M210();
+                                                M200();
                                             }
-                                        }
-                                    }
-                                    translate([12.5, 0.0, 0.0])
-                                    {
-                                        hull()
-                                        {
-                                            translate([0.0, -12.5, 0.0])
+                                            translate([12.5, -12.5])
                                             {
-                                                M210();
+                                                M200();
                                             }
-                                            translate([0.0, 12.5, 0.0])
+                                            translate([-12.5, -12.5])
                                             {
-                                                M210();
-                                            }
-                                        }
-                                    }
-                                    translate([0.0, -12.5, 0.0])
-                                    {
-                                        hull()
-                                        {
-                                            translate([-12.5, 0.0, 0.0])
-                                            {
-                                                M210();
-                                            }
-                                            translate([12.5, 0.0, 0.0])
-                                            {
-                                                M210();
-                                            }
-                                        }
-                                    }
-                                    translate([-12.5, 0.0, 0.0])
-                                    {
-                                        hull()
-                                        {
-                                            translate([0.0, -12.5, 0.0])
-                                            {
-                                                M210();
-                                            }
-                                            translate([0.0, 12.5, 0.0])
-                                            {
-                                                M210();
+                                                M200();
                                             }
                                         }
                                     }
                                 }
-                                M218();
+                                union()
+                                {
+                                    union()
+                                    {
+                                        translate([0.0, 12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([0.0, -12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([-12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                    }
+                                    M218();
+                                }
                             }
                         }
+                        translate([0.0, 0.0, -10.0])
+                        {
+                            M234();
+                        }
                     }
-                    translate([0.0, 0.0, -10.0])
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    union()
                     {
-                        M234();
+                        translate([0.0, 15.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([0.0, -15.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
                     }
                 }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([15.625, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                union()
+                translate([0.0, 0.0, 60.0])
                 {
-                    translate([0.0, 15.0, 0.0])
+                    difference()
                     {
-                        hull()
+                        translate([0.0, 0.0, -2.5])
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            union()
                             {
-                                M210();
-                            }
-                            translate([15.0, 0.0, 0.0])
-                            {
-                                M210();
+                                translate([0.0, 0.0, -57.5])
+                                {
+                                    linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                    {
+                                        hull()
+                                        {
+                                            translate([12.5, 12.5])
+                                            {
+                                                M200();
+                                            }
+                                            translate([-12.5, 12.5])
+                                            {
+                                                M200();
+                                            }
+                                            translate([12.5, -12.5])
+                                            {
+                                                M200();
+                                            }
+                                            translate([-12.5, -12.5])
+                                            {
+                                                M200();
+                                            }
+                                        }
+                                    }
+                                }
+                                union()
+                                {
+                                    union()
+                                    {
+                                        translate([0.0, 12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([0.0, -12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([-12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                    }
+                                    M218();
+                                }
                             }
                         }
-                    }
-                    translate([15.0, 0.0, 0.0])
-                    {
-                        hull()
+                        translate([0.0, 0.0, -10.0])
                         {
-                            translate([0.0, -15.0, 0.0])
-                            {
-                                M210();
-                            }
-                            translate([0.0, 15.0, 0.0])
-                            {
-                                M210();
-                            }
+                            M234();
                         }
                     }
-                    translate([0.0, -15.0, 0.0])
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    union()
                     {
-                        hull()
+                        translate([0.0, 15.0, 0.0])
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            hull()
                             {
-                                M210();
-                            }
-                            translate([15.0, 0.0, 0.0])
-                            {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
-                    }
-                    translate([-15.0, 0.0, 0.0])
-                    {
-                        hull()
+                        translate([15.0, 0.0, 0.0])
                         {
-                            translate([0.0, -15.0, 0.0])
+                            hull()
                             {
-                                M210();
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
-                            translate([0.0, 15.0, 0.0])
+                        }
+                        translate([0.0, -15.0, 0.0])
+                        {
+                            hull()
                             {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
                     }
@@ -757,207 +1354,429 @@ union()
     }
     translate([46.875, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 60.0])
+            difference()
             {
-                difference()
+                translate([0.0, 0.0, 60.0])
                 {
-                    translate([0.0, 0.0, -2.5])
+                    difference()
                     {
-                        union()
+                        translate([0.0, 0.0, -2.5])
                         {
-                            translate([0.0, 0.0, -57.5])
-                            {
-                                linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
-                                {
-                                    M219();
-                                }
-                            }
                             union()
                             {
-                                M223();
-                                M227();
+                                translate([0.0, 0.0, -57.5])
+                                {
+                                    linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                    {
+                                        M219();
+                                    }
+                                }
+                                union()
+                                {
+                                    M223();
+                                    M227();
+                                }
                             }
                         }
-                    }
-                    translate([0.0, 0.0, -10.0])
-                    {
-                        M234();
+                        translate([0.0, 0.0, -10.0])
+                        {
+                            M234();
+                        }
                     }
                 }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([46.875, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                M229();
+                translate([0.0, 0.0, 60.0])
+                {
+                    difference()
+                    {
+                        translate([0.0, 0.0, -2.5])
+                        {
+                            union()
+                            {
+                                translate([0.0, 0.0, -57.5])
+                                {
+                                    linear_extrude(height = 57.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                    {
+                                        M219();
+                                    }
+                                }
+                                union()
+                                {
+                                    M223();
+                                    M227();
+                                }
+                            }
+                        }
+                        translate([0.0, 0.0, -10.0])
+                        {
+                            M234();
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
             }
         }
     }
     translate([78.125, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 80.0])
+            difference()
             {
-                difference()
+                translate([0.0, 0.0, 80.0])
                 {
-                    translate([0.0, 0.0, -2.5])
+                    difference()
                     {
-                        union()
+                        translate([0.0, 0.0, -2.5])
                         {
-                            translate([0.0, 0.0, -77.5])
-                            {
-                                linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
-                                {
-                                    hull()
-                                    {
-                                        translate([12.5, 12.5])
-                                        {
-                                            M200();
-                                        }
-                                        translate([-12.5, 12.5])
-                                        {
-                                            M200();
-                                        }
-                                        translate([12.5, -12.5])
-                                        {
-                                            M200();
-                                        }
-                                        translate([-12.5, -12.5])
-                                        {
-                                            M200();
-                                        }
-                                    }
-                                }
-                            }
                             union()
                             {
-                                union()
+                                translate([0.0, 0.0, -77.5])
                                 {
-                                    translate([0.0, 12.5, 0.0])
+                                    linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
                                     {
                                         hull()
                                         {
-                                            translate([-12.5, 0.0, 0.0])
+                                            translate([12.5, 12.5])
                                             {
-                                                M210();
+                                                M200();
                                             }
-                                            translate([12.5, 0.0, 0.0])
+                                            translate([-12.5, 12.5])
                                             {
-                                                M210();
+                                                M200();
                                             }
-                                        }
-                                    }
-                                    translate([12.5, 0.0, 0.0])
-                                    {
-                                        hull()
-                                        {
-                                            translate([0.0, -12.5, 0.0])
+                                            translate([12.5, -12.5])
                                             {
-                                                M210();
+                                                M200();
                                             }
-                                            translate([0.0, 12.5, 0.0])
+                                            translate([-12.5, -12.5])
                                             {
-                                                M210();
-                                            }
-                                        }
-                                    }
-                                    translate([0.0, -12.5, 0.0])
-                                    {
-                                        hull()
-                                        {
-                                            translate([-12.5, 0.0, 0.0])
-                                            {
-                                                M210();
-                                            }
-                                            translate([12.5, 0.0, 0.0])
-                                            {
-                                                M210();
-                                            }
-                                        }
-                                    }
-                                    translate([-12.5, 0.0, 0.0])
-                                    {
-                                        hull()
-                                        {
-                                            translate([0.0, -12.5, 0.0])
-                                            {
-                                                M210();
-                                            }
-                                            translate([0.0, 12.5, 0.0])
-                                            {
-                                                M210();
+                                                M200();
                                             }
                                         }
                                     }
                                 }
-                                M218();
+                                union()
+                                {
+                                    union()
+                                    {
+                                        translate([0.0, 12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([0.0, -12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([-12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                    }
+                                    M218();
+                                }
                             }
                         }
+                        translate([0.0, 0.0, -10.0])
+                        {
+                            M234();
+                        }
                     }
-                    translate([0.0, 0.0, -10.0])
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    union()
                     {
-                        M234();
+                        translate([0.0, 15.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([0.0, -15.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
                     }
                 }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([78.125, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                union()
+                translate([0.0, 0.0, 80.0])
                 {
-                    translate([0.0, 15.0, 0.0])
+                    difference()
                     {
-                        hull()
+                        translate([0.0, 0.0, -2.5])
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            union()
                             {
-                                M210();
-                            }
-                            translate([15.0, 0.0, 0.0])
-                            {
-                                M210();
+                                translate([0.0, 0.0, -77.5])
+                                {
+                                    linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                    {
+                                        hull()
+                                        {
+                                            translate([12.5, 12.5])
+                                            {
+                                                M200();
+                                            }
+                                            translate([-12.5, 12.5])
+                                            {
+                                                M200();
+                                            }
+                                            translate([12.5, -12.5])
+                                            {
+                                                M200();
+                                            }
+                                            translate([-12.5, -12.5])
+                                            {
+                                                M200();
+                                            }
+                                        }
+                                    }
+                                }
+                                union()
+                                {
+                                    union()
+                                    {
+                                        translate([0.0, 12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([0.0, -12.5, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([-12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([12.5, 0.0, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                        translate([-12.5, 0.0, 0.0])
+                                        {
+                                            hull()
+                                            {
+                                                translate([0.0, -12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                                translate([0.0, 12.5, 0.0])
+                                                {
+                                                    M210();
+                                                }
+                                            }
+                                        }
+                                    }
+                                    M218();
+                                }
                             }
                         }
-                    }
-                    translate([15.0, 0.0, 0.0])
-                    {
-                        hull()
+                        translate([0.0, 0.0, -10.0])
                         {
-                            translate([0.0, -15.0, 0.0])
-                            {
-                                M210();
-                            }
-                            translate([0.0, 15.0, 0.0])
-                            {
-                                M210();
-                            }
+                            M234();
                         }
                     }
-                    translate([0.0, -15.0, 0.0])
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    union()
                     {
-                        hull()
+                        translate([0.0, 15.0, 0.0])
                         {
-                            translate([-15.0, 0.0, 0.0])
+                            hull()
                             {
-                                M210();
-                            }
-                            translate([15.0, 0.0, 0.0])
-                            {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
-                    }
-                    translate([-15.0, 0.0, 0.0])
-                    {
-                        hull()
+                        translate([15.0, 0.0, 0.0])
                         {
-                            translate([0.0, -15.0, 0.0])
+                            hull()
                             {
-                                M210();
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
-                            translate([0.0, 15.0, 0.0])
+                        }
+                        translate([0.0, -15.0, 0.0])
+                        {
+                            hull()
                             {
-                                M210();
+                                translate([-15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([15.0, 0.0, 0.0])
+                                {
+                                    M210();
+                                }
+                            }
+                        }
+                        translate([-15.0, 0.0, 0.0])
+                        {
+                            hull()
+                            {
+                                translate([0.0, -15.0, 0.0])
+                                {
+                                    M210();
+                                }
+                                translate([0.0, 15.0, 0.0])
+                                {
+                                    M210();
+                                }
                             }
                         }
                     }
@@ -967,39 +1786,83 @@ union()
     }
     translate([109.375, 150.0, 0.0])
     {
-        difference()
+        color(c = [0.5, 0.8, 0.5, 1.0])
         {
-            translate([0.0, 0.0, 80.0])
+            difference()
             {
-                difference()
+                translate([0.0, 0.0, 80.0])
                 {
-                    translate([0.0, 0.0, -2.5])
+                    difference()
                     {
-                        union()
+                        translate([0.0, 0.0, -2.5])
                         {
-                            translate([0.0, 0.0, -77.5])
-                            {
-                                linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
-                                {
-                                    M219();
-                                }
-                            }
                             union()
                             {
-                                M223();
-                                M227();
+                                translate([0.0, 0.0, -77.5])
+                                {
+                                    linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                    {
+                                        M219();
+                                    }
+                                }
+                                union()
+                                {
+                                    M223();
+                                    M227();
+                                }
                             }
                         }
-                    }
-                    translate([0.0, 0.0, -10.0])
-                    {
-                        M234();
+                        translate([0.0, 0.0, -10.0])
+                        {
+                            M234();
+                        }
                     }
                 }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
             }
-            translate([0.0, 0.0, 40.0])
+        }
+    }
+    translate([109.375, -150.0, 0.0])
+    {
+        color(c = [0.5, 0.8, 0.8, 1.0])
+        {
+            difference()
             {
-                M229();
+                translate([0.0, 0.0, 80.0])
+                {
+                    difference()
+                    {
+                        translate([0.0, 0.0, -2.5])
+                        {
+                            union()
+                            {
+                                translate([0.0, 0.0, -77.5])
+                                {
+                                    linear_extrude(height = 77.5, twist = 0.0, scale = 1.0, slices = 1, center = false)
+                                    {
+                                        M219();
+                                    }
+                                }
+                                union()
+                                {
+                                    M223();
+                                    M227();
+                                }
+                            }
+                        }
+                        translate([0.0, 0.0, -10.0])
+                        {
+                            M234();
+                        }
+                    }
+                }
+                translate([0.0, 0.0, 40.0])
+                {
+                    M229();
+                }
             }
         }
     }

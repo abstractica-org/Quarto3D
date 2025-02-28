@@ -7,7 +7,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		JavaCSG csg = JavaCSGFactory.createNoCaching();
+		JavaCSG csg = JavaCSGFactory.createDefault();
 		ShowGame showGame = new ShowGame(csg);
 		QuartoConfig config = new QuartoConfig
 			(
